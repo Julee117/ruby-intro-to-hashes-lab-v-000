@@ -4,7 +4,7 @@ end
 
 def actor(key, value)
 	actor = {}
-	actor[key] => value
+	actor[key] = value
 end
 
 def monopoly
