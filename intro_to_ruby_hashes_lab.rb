@@ -2,8 +2,8 @@ def new_hash
 	{}
 end
 
-def actor(name)
-	name.to_sym => {}
+def actor
+	actor[:name] => "Dwayne The Rock Johnson"
 end
 
 def monopoly
