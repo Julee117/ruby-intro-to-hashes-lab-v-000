@@ -3,7 +3,8 @@ def new_hash
 end
 
 def actor(key, value)
-	actor = {key => value}
+	actor = new_hash
+	actor[key] = value
 
 end
 
