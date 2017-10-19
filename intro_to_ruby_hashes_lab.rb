@@ -2,8 +2,8 @@ def new_hash
 	{}
 end
 
-def actor(:name)
-	:name => {}
+def actor(name)
+	name.to_sym => {}
 end
 
 def monopoly
